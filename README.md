@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Awesome Infectious Disease Modeling [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 > A curated list of awesome resources for infectious disease modeling — the mathematical and computational study of how infectious diseases spread and can be controlled.
@@ -117,8 +116,3 @@ Infectious disease modeling combines epidemiology, mathematics, statistics, and 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-=======
-> [!NOTE]
->
-> This awesome list will be online and ready to edit soon!
->>>>>>> origin/main
