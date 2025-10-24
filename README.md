@@ -1,8 +1,17 @@
 # Awesome Infectious Disease Modeling [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-> A curated list of awesome resources for infectious disease modeling — the mathematical and computational study of how infectious diseases spread and can be controlled.
+_A curated list of awesome resources for infectious disease modeling._
 
-Infectious disease modeling combines epidemiology, mathematics, statistics, and computational science to understand disease transmission dynamics, predict outbreak trajectories, and evaluate intervention strategies.
+<details markdown=1>
+
+<summary> Definition From Wikipedia </summary>
+
+> [Mathematical models](https://en.wikipedia.org/wiki/Mathematical_model "Mathematical model") can project how [infectious diseases](https://en.wikipedia.org/wiki/Infectious_diseases "Infectious diseases") progress to show the likely outcome of an [epidemic](https://en.wikipedia.org/wiki/Epidemic "Epidemic") (including [in plants](https://en.wikipedia.org/wiki/Plant_disease_forecasting "Plant disease forecasting")) and help inform [public health](https://en.wikipedia.org/wiki/Public_health "Public health") and plant health interventions. Models use basic assumptions or collected statistics along with mathematics to find [parameters](https://en.wikipedia.org/wiki/Parameter "Parameter") for various infectious diseases and use those parameters to calculate the effects of different interventions, like mass [vaccination](https://en.wikipedia.org/wiki/Vaccination "Vaccination") programs. The modelling can help decide which intervention(s) to avoid and which to trial, or can predict future growth patterns, etc. [^wikipedia_citation]
+
+[^wikipedia_citation]: Wikipedia contributors. "Mathematical modelling of infectious diseases." Wikipedia. Last modified September 30, 2025. Accessed October 24, 2025. <https://en.wikipedia.org/wiki/Mathematical_modelling_of_infectious_diseases>.
+
+</details>
+
 
 **Note on Repositories vs. Software**: Throughout this list, **Repositories** sections contain source code hosted on GitHub/GitLab for researchers and developers, while **Software** sections contain downloadable applications and tools for end-users (excluding items already listed in Repositories).
 
@@ -47,6 +56,12 @@ Infectious disease modeling combines epidemiology, mathematics, statistics, and 
 - [Conference on Retroviruses and Opportunistic Infections (CROI)](https://www.croiconference.org/): HIV/AIDS research and infectious disease modeling.
 
 ## Organizations
+
+### GitHub Organizations
+
+- [MIDAS Network](https://github.com/midas-network): Models of Infectious Disease Agent Study with open-source modeling tools.
+
+### Other Organizations
 
 - [MIDAS Network](https://midasnetwork.us/): Models of Infectious Disease Agent Study coordination center.
 - [WHO Collaborating Centre for Infectious Disease Modelling](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/): Imperial College modeling center.
