@@ -12,8 +12,8 @@ _A curated list of awesome resources for infectious disease modeling._
 
 </details>
 
+![](./assets/id_modeling.jpg)
 
-**Note on Repositories vs. Software**: Throughout this list, **Repositories** sections contain source code hosted on GitHub/GitLab for researchers and developers, while **Software** sections contain downloadable applications and tools for end-users (excluding items already listed in Repositories).
 
 ## Contents
 
@@ -71,13 +71,7 @@ _A curated list of awesome resources for infectious disease modeling._
 
 ## Researchers
 
-- [Neil Ferguson](https://www.imperial.ac.uk/people/neil.ferguson): Imperial College epidemiologist leading COVID-19 modeling.
-- [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/): Harvard epidemiologist studying infectious disease dynamics.
-- [Alessandro Vespignani](https://www.networkscienceinstitute.org/people/alessandro-vespignani): Northeastern network scientist modeling disease spread.
-- [Caitlin Rivers](https://www.jhsph.edu/faculty/directory/profile/4685/caitlin-rivers): Johns Hopkins epidemiologist on outbreak analytics.
-- [Lauren Ancel Meyers](https://www.bio.utexas.edu/research/meyers/): UT Austin researcher on disease dynamics.
-- [Bryan Grenfell](https://eeb.princeton.edu/people/bryan-grenfell): Princeton researcher on epidemic dynamics.
-- [Matt Keeling](https://warwick.ac.uk/fac/sci/mathsys/people/keeling/): Warwick mathematician modeling infectious diseases.
+- [Trevor Bedford](https://github.com/trvrb): Fred Hutch scientist studying viruses, evolution and immunity; creator of Nextstrain.
 
 ## Courses
 
