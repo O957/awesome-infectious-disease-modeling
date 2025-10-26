@@ -31,6 +31,7 @@ _A curated list of awesome resources for infectious disease modeling._
 - [Software](#software)
 - [Websites](#websites)
 - [Educational Resources](#educational-resources)
+- [Contribution](#contribution)
 
 ## Books
 
@@ -121,6 +122,10 @@ _A curated list of awesome resources for infectious disease modeling._
 
 - [MIDAS Online Portal](https://midasnetwork.us/): Training materials and resources.
 - [Epidemic Calculator](http://gabgoh.github.io/COVID/index.html): Interactive epidemic simulator.
+
+## Contribution
+
+Notice anything missing that would be a good fit? If interested in contributing, please see the [contributing file](./CONTRIBUTING.md) for further direction.
 
 ## License
 
