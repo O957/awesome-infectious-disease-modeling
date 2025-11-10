@@ -39,7 +39,7 @@ ci:
 ###############################################################################
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     # prevent giant files from being committed.
     -   id: check-added-large-files
@@ -94,7 +94,7 @@ repos:
 # GITHUB ACTIONS
 ###############################################################################
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.7
+    rev: v1.7.8
     hooks:
     -   id: actionlint
 ###############################################################################
@@ -109,7 +109,7 @@ repos:
 # COMMIT MESSAGES
 ###############################################################################
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.8.3
+    rev: v4.10.0
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
