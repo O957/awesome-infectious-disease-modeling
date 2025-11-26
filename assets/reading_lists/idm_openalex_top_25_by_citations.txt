@@ -1,0 +1,226 @@
+Top 25 Papers Citation Search Results
+Generated: 2025-10-28 02:45:47
+================================================================================
+
+1. Alternative activation of macrophages
+   Authors: Siamon Gordon
+   Year: 2003
+   Citations: 6075
+   Source: Nature reviews. Immunology
+   DOI: https://doi.org/10.1038/nri978
+   URL: https://doi.org/10.1038/nri978
+   Open Access: No
+
+2. From social integration to health: Durkheim in the new millennium
+   Authors: Lisa Berkman, Thomas A. Glass, Ian Brissette, Teresa E. Seeman
+   Year: 2000
+   Citations: 4539
+   Source: Social Science & Medicine
+   DOI: https://doi.org/10.1016/s0277-9536(00)00065-4
+   URL: https://doi.org/10.1016/s0277-9536(00)00065-4
+   Open Access: No
+
+3. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration
+   Authors: Jan P. Vandenbroucke, Erik von Elm, Douglas G. Altman, Peter C Gøtzsche, Cynthia D. Mulrow
+   Year: 2007
+   Citations: 4313
+   Source: PLoS Medicine
+   DOI: https://doi.org/10.1371/journal.pmed.0040297
+   URL: https://doi.org/10.1371/journal.pmed.0040297
+   Open Access: Yes
+
+4. BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis
+   Authors: Remco Bouckaert, Timothy G. Vaughan, Joëlle Barido‐Sottani, Sebastián Duchêne, Mathieu Fourment
+   Year: 2019
+   Citations: 3806
+   Source: PLoS Computational Biology
+   DOI: https://doi.org/10.1371/journal.pcbi.1006650
+   URL: https://doi.org/10.1371/journal.pcbi.1006650
+   Open Access: Yes
+
+5. Innate and adaptive immune cells in the tumor microenvironment
+   Authors: Thomas F. Gajewski, Hans Schreiber, Yang‐Xin Fu
+   Year: 2013
+   Citations: 3771
+   Source: Nature Immunology
+   DOI: https://doi.org/10.1038/ni.2703
+   URL: https://doi.org/10.1038/ni.2703
+   Open Access: Yes
+
+6. The causal relation between human papillomavirus and cervical cancer
+   Authors: F. Xavier Bosch, Attila T. Lörincz, Núbia Muñóz, Chris J.L.M. Meijer, K. V. Shah
+   Year: 2002
+   Citations: 3520
+   Source: Journal of Clinical Pathology
+   DOI: https://doi.org/10.1136/jcp.55.4.244
+   URL: https://doi.org/10.1136/jcp.55.4.244
+   Open Access: Yes
+
+7. Epidemic processes in complex networks
+   Authors: Romualdo Pastor‐Satorras, Claudio Castellano, Piet Van Mieghem, Alessandro Vespignani
+   Year: 2015
+   Citations: 3430
+   Source: Reviews of Modern Physics
+   DOI: https://doi.org/10.1103/revmodphys.87.925
+   URL: https://doi.org/10.1103/revmodphys.87.925
+   Open Access: Yes
+
+8. Monocyte recruitment during infection and inflammation
+   Authors: Chao Shi, Eric G. Pamer
+   Year: 2011
+   Citations: 2745
+   Source: Nature reviews. Immunology
+   DOI: https://doi.org/10.1038/nri3070
+   URL: https://doi.org/10.1038/nri3070
+   Open Access: Yes
+
+9. The family of five: TIR-domain-containing adaptors in Toll-like receptor signalling
+   Authors: Luke O'neill, Andrew Bowie
+   Year: 2007
+   Citations: 2589
+   Source: Nature reviews. Immunology
+   DOI: https://doi.org/10.1038/nri2079
+   URL: https://doi.org/10.1038/nri2079
+   Open Access: Yes
+
+10. Interleukin-12: A Proinflammatory Cytokine with Immunoregulatory Functions that Bridge Innate Resistance and Antigen-Specific Adaptive Immunity
+   Authors: Giorgio Trinchieri
+   Year: 1995
+   Citations: 2457
+   Source: Annual Review of Immunology
+   DOI: https://doi.org/10.1146/annurev.iy.13.040195.001343
+   URL: https://doi.org/10.1146/annurev.iy.13.040195.001343
+   Open Access: No
+
+11. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE)
+   Authors: Jan P. Vandenbroucke, Erik von Elm, Douglas G. Altman, Peter C Gøtzsche, Cynthia D. Mulrow
+   Year: 2007
+   Citations: 2221
+   Source: Epidemiology
+   DOI: https://doi.org/10.1097/ede.0b013e3181577511
+   URL: https://doi.org/10.1097/ede.0b013e3181577511
+   Open Access: Yes
+
+12. The construction of next-generation matrices for compartmental epidemic models
+   Authors: Odo Diekmann, Hans Heesterbeek, Michael C. Roberts
+   Year: 2009
+   Citations: 1943
+   Source: Journal of The Royal Society Interface
+   DOI: https://doi.org/10.1098/rsif.2009.0386
+   URL: https://doi.org/10.1098/rsif.2009.0386
+   Open Access: Yes
+
+13. Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation
+   Authors: Odo Diekmann, Hans Heesterbeek
+   Year: 2000
+   Citations: 1876
+   Source: Unknown
+   Open Access: No
+
+14. The BUGS project: Evolution, critique and future directions
+   Authors: David J. Lunn, David J. Spiegelhalter, Andrew C. Thomas, Nicky Best
+   Year: 2009
+   Citations: 1875
+   Source: Statistics in Medicine
+   DOI: https://doi.org/10.1002/sim.3680
+   URL: https://doi.org/10.1002/sim.3680
+   Open Access: No
+
+15. Divergent Pro- and Antiinflammatory Roles for IL-23 and IL-12 in Joint Autoimmune Inflammation
+   Authors: Craig A. Murphy, Claire L. Langrish, Yi Chen, Wendy M. Blumenschein, Terrill K. McClanahan
+   Year: 2003
+   Citations: 1663
+   Source: The Journal of Experimental Medicine
+   DOI: https://doi.org/10.1084/jem.20030896
+   URL: https://doi.org/10.1084/jem.20030896
+   Open Access: Yes
+
+16. Zinc and immune function: the biological basis of altered resistance to infection
+   Authors: Anuraj H. Shankar, Ananda S. Prasad
+   Year: 1998
+   Citations: 1597
+   Source: American Journal of Clinical Nutrition
+   DOI: https://doi.org/10.1093/ajcn/68.2.447s
+   URL: https://doi.org/10.1093/ajcn/68.2.447s
+   Open Access: Yes
+
+17. Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation
+   Authors: Andrew Roddam
+   Year: 2001
+   Citations: 1499
+   Source: International Journal of Epidemiology
+   DOI: https://doi.org/10.1093/ije/30.1.186
+   URL: https://doi.org/10.1093/ije/30.1.186
+   Open Access: Yes
+
+18. Modified SEIR and AI prediction of the epidemics trend of COVID-19 in China under public health interventions
+   Authors: Zifeng Yang, Zhiqi Zeng, Ke Wang, Sook‐San Wong, Wenhua Liang
+   Year: 2020
+   Citations: 1447
+   Source: Journal of Thoracic Disease
+   DOI: https://doi.org/10.21037/jtd.2020.02.64
+   URL: https://doi.org/10.21037/jtd.2020.02.64
+   Open Access: Yes
+
+19. Seasonality and the dynamics of infectious diseases
+   Authors: Sonia Altizer, Andrew P. Dobson, Parviez R. Hosseini, Peter J. Hudson, Mercedes Pascual
+   Year: 2006
+   Citations: 1416
+   Source: Ecology Letters
+   DOI: https://doi.org/10.1111/j.1461-0248.2005.00879.x
+   URL: https://doi.org/10.1111/j.1461-0248.2005.00879.x
+   Open Access: Yes
+
+20. PAD4 is essential for antibacterial innate immunity mediated by neutrophil extracellular traps
+   Authors: Pingxin Li, Ming Li, Michael Lindberg, Mary J. Kennett, Na Xiong
+   Year: 2010
+   Citations: 1367
+   Source: The Journal of Experimental Medicine
+   DOI: https://doi.org/10.1084/jem.20100239
+   URL: https://doi.org/10.1084/jem.20100239
+   Open Access: Yes
+
+21. The Regulation of Immunity to Leishmania Major
+   Authors: Steven L. Reiner, Richard M. Locksley
+   Year: 1995
+   Citations: 1271
+   Source: Annual Review of Immunology
+   DOI: https://doi.org/10.1146/annurev.iy.13.040195.001055
+   URL: https://doi.org/10.1146/annurev.iy.13.040195.001055
+   Open Access: No
+
+22. Modelling the influence of human behaviour on the spread of infectious diseases: a review
+   Authors: Sebastian Funk, Marcel Salathé, Vincent A. A. Jansen
+   Year: 2010
+   Citations: 1226
+   Source: Journal of The Royal Society Interface
+   DOI: https://doi.org/10.1098/rsif.2010.0142
+   URL: https://doi.org/10.1098/rsif.2010.0142
+   Open Access: Yes
+
+23. Factors that make an infectious disease outbreak controllable
+   Authors: Christophe Fraser, Steven Riley, Roy M. Anderson, Neil M. Ferguson
+   Year: 2004
+   Citations: 1225
+   Source: Proceedings of the National Academy of Sciences
+   DOI: https://doi.org/10.1073/pnas.0307506101
+   URL: https://doi.org/10.1073/pnas.0307506101
+   Open Access: Yes
+
+24. The ecology of climate change and infectious diseases
+   Authors: Kevin D. Lafferty
+   Year: 2009
+   Citations: 1156
+   Source: Ecology
+   DOI: https://doi.org/10.1890/08-0079.1
+   URL: https://doi.org/10.1890/08-0079.1
+   Open Access: No
+
+25. Differing Lymphokine Profiles of Functional Subsets of Human CD4 and CD8 T Cell Clones
+   Authors: Padmini Salgame, John S. Abrams, Carol Clayberger, Harris Goldstein, J Convit
+   Year: 1991
+   Citations: 1030
+   Source: Science
+   DOI: https://doi.org/10.1126/science.1681588
+   URL: https://doi.org/10.1126/science.1681588
+   Open Access: No
