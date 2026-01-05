@@ -94,7 +94,7 @@ repos:
 # GITHUB ACTIONS
 ###############################################################################
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.9
+    rev: v1.7.10
     hooks:
     -   id: actionlint
 ###############################################################################
@@ -109,7 +109,7 @@ repos:
 # COMMIT MESSAGES
 ###############################################################################
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.10.0
+    rev: v4.11.1
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
