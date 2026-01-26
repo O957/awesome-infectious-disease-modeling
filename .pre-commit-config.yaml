@@ -109,7 +109,7 @@ repos:
 # COMMIT MESSAGES
 ###############################################################################
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.11.1
+    rev: v4.12.1
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
