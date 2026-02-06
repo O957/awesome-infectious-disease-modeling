@@ -16,11 +16,9 @@ _A curated list of awesome resources for infectious disease modeling._
 
 [^image_attribution]: Image used under the [Unsplash License](https://unsplash.com/license), i.e. "All images can be downloaded and used for free", "Commercial and non-commercial purposes", and "No permission needed (though attribution is appreciated!)". Image Link: <https://unsplash.com/photos/a-group-of-blue-and-green-cells-on-a-white-surface-VYUNnjcHyNw>. Image Description: "This digitally-colorized, negative-stained transmission electron microscopic (TEM) image depicted a number of Influenza A virions.". Image Photographer: [CDC](https://unsplash.com/@cdc).
 
-
 > [!NOTE]
 >
 > This list follows specific scoping guidelines. The **Books** section primarily contains textbooks. **Organizations** is divided into GitHub organizations and non-GitHub organizations. **Researchers** exclusively features researcher GitHub profiles. A **Reading Lists** section was chosen over individual papers, as managing the volume of papers on the topic at hand in a single list in untenable. **Repositories** targets larger work on GitHub and excludes, for example, standalone code for papers. **Datasets** includes only publicly accessible data. **Software** features notable tools, libraries, and frameworks not available on GitHub. **Websites** covers informational sites, news sources, and community hubs. **Educational Resources** includes tutorials, videos, and other learning materials.
-
 
 ## Contents
 
