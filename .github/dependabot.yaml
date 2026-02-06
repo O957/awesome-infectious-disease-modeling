@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "10:00"
+      timezone: "America/Denver"
+    reviewers:
+      - "O957"
+    assignees:
+      - "O957"
+    pull-request-branch-name:
+      separator: "-"
+    labels:
+      - "Automation"

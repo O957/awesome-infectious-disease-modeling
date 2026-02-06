@@ -1,0 +1,4 @@
+# line length rule
+MD013: false
+# image alt-text rule
+MD045: false
