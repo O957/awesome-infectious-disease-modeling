@@ -14,15 +14,15 @@ Next, aim to abide by the [Code Of Conduct](CODE_OF_CONDUCT.md).
 
 Finally, proceed with the following:
 
-- Review the existing list content.
-- Ensure your item fits the scope and quality standards.
-- Check that your item is not already listed.
-- Verify all links work correctly.
-- If you are uncertain about your contribution, ask first.
-  - Post in the current Open Thread in Discussions.
-  - Or create a new issue to discuss your idea.
-- If you are confident about your contribution, proceed.
-- Fork this repository to your account.
-- Make your changes in your fork.
-- Submit a pull request with a clear description.
-- Wait for review and address any feedback.
+* Review the existing list content.
+* Ensure your item fits the scope and quality standards.
+* Check that your item is not already listed.
+* Verify all links work correctly.
+* If you are uncertain about your contribution, ask first.
+  * Post in the current Open Thread in Discussions.
+  * Or create a new issue to discuss your idea.
+* If you are confident about your contribution, proceed.
+* Fork this repository to your account.
+* Make your changes in your fork.
+* Submit a pull request with a clear description.
+* Wait for review and address any feedback.
