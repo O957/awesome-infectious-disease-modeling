@@ -35,11 +35,11 @@ repos:
     -   id: markdownlint
         args: [--fix]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.9.28
+    rev: 0.10.7
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.10
+    rev: v1.7.11
     hooks:
     -   id: actionlint
 -   repo: https://github.com/crate-ci/typos
@@ -48,7 +48,7 @@ repos:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.12.1
+    rev: v4.13.9
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
