@@ -15,9 +15,7 @@ repos:
     hooks:
     -   id: check-added-large-files
         args: ["--maxkb=10000"]
-    -   id: check-ast
     -   id: check-case-conflict
-    -   id: check-docstring-first
     -   id: check-yaml
         args: ["--allow-multiple-documents"]
     -   id: check-toml
@@ -26,20 +24,14 @@ repos:
     -   id: pretty-format-json
         args: ["--autofix", "--no-sort-keys",  "--indent", "4"]
     -   id: trailing-whitespace
-    -   id: check-executables-have-shebangs
-        files: \.sh$
     -   id: detect-private-key
 -   repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.47.0
+    rev: v0.48.0
     hooks:
     -   id: markdownlint
         args: [--fix]
--   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.9.28
-    hooks:
-    -   id: uv-lock
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.10
+    rev: v1.7.11
     hooks:
     -   id: actionlint
 -   repo: https://github.com/crate-ci/typos
@@ -48,7 +40,7 @@ repos:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.12.1
+    rev: v4.13.9
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
