@@ -81,6 +81,7 @@ _A curated list of awesome resources for infectious disease modeling._
 ## Researchers
 
 1. [Trevor Bedford](https://github.com/trvrb): Fred Hutch scientist studying viruses, evolution and immunity; creator of Nextstrain.
+2. ...
 
 ## Courses
 
