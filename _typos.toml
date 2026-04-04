@@ -2,6 +2,7 @@
 [default.extend-words]
 # words that should not be corrected
 O957 = "O957"
+Soler = "Soler"
 dot_acn = ".acn"
 dot_fot = ".fot"
 dot_ist = ".ist"

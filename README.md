@@ -1,140 +1,147 @@
 # Awesome Infectious Disease Modeling [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-_A curated list of awesome resources for infectious disease modeling._
+_A curated[^curation_details] list of awesome resources on infectious disease modeling[^definition_infectious_disease_modeling]._
 
-<details markdown=1>
-
-<summary> Definition From Wikipedia </summary>
-
-> [Mathematical models](https://en.wikipedia.org/wiki/Mathematical_model "Mathematical model") can project how [infectious diseases](https://en.wikipedia.org/wiki/Infectious_diseases "Infectious diseases") progress to show the likely outcome of an [epidemic](https://en.wikipedia.org/wiki/Epidemic "Epidemic") (including [in plants](https://en.wikipedia.org/wiki/Plant_disease_forecasting "Plant disease forecasting")) and help inform [public health](https://en.wikipedia.org/wiki/Public_health "Public health") and plant health interventions. Models use basic assumptions or collected statistics along with mathematics to find [parameters](https://en.wikipedia.org/wiki/Parameter "Parameter") for various infectious diseases and use those parameters to calculate the effects of different interventions, like mass [vaccination](https://en.wikipedia.org/wiki/Vaccination "Vaccination") programs. The modelling can help decide which intervention(s) to avoid and which to trial, or can predict future growth patterns, etc. [^wikipedia_citation]
-
-[^wikipedia_citation]: Wikipedia contributors. "Mathematical modelling of infectious diseases." Wikipedia. Last modified September 30, 2025. Accessed October 24, 2025. <https://en.wikipedia.org/wiki/Mathematical_modelling_of_infectious_diseases>.
-
-</details>
+[^definition_infectious_disease_modeling]: (from Wikipedia, see citation at the bottom) [Mathematical models](https://en.wikipedia.org/wiki/Mathematical_model "Mathematical model") can project how [infectious diseases](https://en.wikipedia.org/wiki/Infectious_diseases "Infectious diseases") progress to show the likely outcome of an [epidemic](https://en.wikipedia.org/wiki/Epidemic "Epidemic") (including [in plants](https://en.wikipedia.org/wiki/Plant_disease_forecasting "Plant disease forecasting")) and help inform [public health](https://en.wikipedia.org/wiki/Public_health "Public health") and plant health interventions. Models use basic assumptions or collected statistics along with mathematics to find [parameters](https://en.wikipedia.org/wiki/Parameter "Parameter") for various infectious diseases and use those parameters to calculate the effects of different interventions, like mass [vaccination](https://en.wikipedia.org/wiki/Vaccination "Vaccination") programs. The modelling can help decide which intervention(s) to avoid and which to trial, or can predict future growth patterns, etc. CITATION: Wikipedia contributors. "Mathematical modelling of infectious diseases." Wikipedia. Last modified September 30, 2025. Accessed October 24, 2025. <https://en.wikipedia.org/wiki/Mathematical_modelling_of_infectious_diseases>.
 
 ![](./assets/id_modeling.jpg) [^image_attribution]
 
 [^image_attribution]: Image used under the [Unsplash License](https://unsplash.com/license), i.e. "All images can be downloaded and used for free", "Commercial and non-commercial purposes", and "No permission needed (though attribution is appreciated!)". Image Link: <https://unsplash.com/photos/a-group-of-blue-and-green-cells-on-a-white-surface-VYUNnjcHyNw>. Image Description: "This digitally-colorized, negative-stained transmission electron microscopic (TEM) image depicted a number of Influenza A virions.". Image Photographer: [CDC](https://unsplash.com/@cdc).
 
-
-> [!NOTE]
->
-> This list follows specific scoping guidelines. The **Books** section primarily contains textbooks. **Organizations** is divided into GitHub organizations and non-GitHub organizations. **Researchers** exclusively features researcher GitHub profiles. A **Reading Lists** section was chosen over individual papers, as managing the volume of papers on the topic at hand in a single list in untenable. **Repositories** targets larger work on GitHub and excludes, for example, standalone code for papers. **Datasets** includes only publicly accessible data. **Software** features notable tools, libraries, and frameworks not available on GitHub. **Websites** covers informational sites, news sources, and community hubs. **Educational Resources** includes tutorials, videos, and other learning materials.
-
+[^curation_details]: This list follows specific scoping guidelines. **Modeling Software & Tools** covers R packages, standalone software, climate-sensitive disease tools, and machine learning tools for epidemic modeling. **Surveillance & Data Systems** includes global, US, and regional disease surveillance networks. **Epidemiological Databases** lists health data repositories from WHO and other agencies. **Organizations & Networks** features research institutes and collaborative networks. **Journals & Publications** covers peer-reviewed journals in epidemiology and disease modeling. **Educational Resources** includes online courses, textbooks, and tutorials.
 
 ## Contents
 
-- [Books](#books)
-- [Journals](#journals)
-- [Conferences](#conferences)
-- [Organizations](#organizations)
-- [Researchers](#researchers)
-- [Courses](#courses)
-- [Reading Lists](#reading-lists)
-- [Repositories](#repositories)
-- [Datasets](#datasets)
-- [Software](#software)
-- [Websites](#websites)
+- [Modeling Software & Tools](#modeling-software--tools)
+- [Surveillance & Data Systems](#surveillance--data-systems)
+- [Epidemiological Databases](#epidemiological-databases)
+- [Organizations & Networks](#organizations--networks)
+- [Journals & Publications](#journals--publications)
 - [Educational Resources](#educational-resources)
-- [Contribution](#contribution)
-- [License](#license)
+- [People](#people)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Books
+## Modeling Software & Tools
 
-1. [Modeling Infectious Diseases in Humans and Animals](https://press.princeton.edu/books/hardcover/9780691116174/modeling-infectious-diseases-in-humans-and-animals): Keeling and Rohani's comprehensive textbook.
-2. [Mathematical Epidemiology](https://www.springer.com/gp/book/9783540789109): Brauer, van den Driessche, and Wu on mathematical foundations.
-3. [An Introduction to Infectious Disease Modelling](https://global.oup.com/academic/product/an-introduction-to-infectious-disease-modelling-9780198565765): Vynnycky and White practical guide.
-4. [Infectious Disease Epidemiology: Theory and Practice](https://www.amazon.com/Infectious-Disease-Epidemiology-Theory-Practice/dp/1449683797): Nelson and Williams comprehensive textbook.
-5. [Networks and Epidemic Models](https://academic.oup.com/book/27755): Kiss, Miller, and Simon on network-based approaches.
+### R Packages
 
-## Journals
+1. [EpiModel](https://epimodel.github.io/EpiModel/): Mathematical models of infectious disease dynamics (deterministic compartmental, stochastic individual-contact, network models using ERGMs).
+2. [EpiEstim](https://cran.r-project.org/package=EpiEstim): Real-time reproduction number (Rt) estimation.
+3. [surveillance](https://cran.r-project.org/package=surveillance): Temporal and spatio-temporal outbreak detection.
 
-1. [Epidemics](https://www.journals.elsevier.com/epidemics): Dedicated to infectious disease dynamics and modeling.
-2. [Journal of Theoretical Biology](https://www.journals.elsevier.com/journal-of-theoretical-biology): Mathematical and theoretical biology including disease modeling.
-3. [Mathematical Biosciences](https://www.journals.elsevier.com/mathematical-biosciences): Mathematical modeling in biological sciences.
-4. [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/): Computational approaches to biology and disease.
-5. [Bulletin of Mathematical Biology](https://www.springer.com/journal/11538): Mathematical biology research.
-6. [Emerging Infectious Diseases](https://wwwnc.cdc.gov/eid/): CDC journal on emerging infections.
+### Standalone Software
 
-## Conferences
+1. [STEM (Spatiotemporal Epidemiological Modeler)](https://www.eclipse.org/stem/): Eclipse Foundation open-source platform for global disease spread modeling.
+2. [EPIMOD](https://epimod.org): Agent-based modeling framework.
+3. [OpenMalaria](https://github.com/SwissTPH/openmalaria): Microsimulation model of malaria epidemiology and control.
+4. [GLEAM (Global Epidemic and Mobility Model)](http://www.gleamviz.org): Large-scale epidemic modeling with human mobility data.
 
-1. [Epidemics Conference](https://www.epidemics.elsevier.com/): International conference on infectious disease dynamics.
-2. [Society for Mathematical Biology Annual Meeting](https://www.smb.org/): Mathematical biology including epidemic modeling.
-3. [Annual Meeting of the Society for Healthcare Epidemiology of America (SHEA)](https://shea.confex.com/): Healthcare epidemiology and infection control.
-4. [Options for the Control of Influenza Conference](https://www.isirv.org/site/): International meeting on influenza research and control.
-5. [Conference on Retroviruses and Opportunistic Infections (CROI)](https://www.croiconference.org/): HIV/AIDS research and infectious disease modeling.
+### Climate-Sensitive Disease Tools
 
-## Organizations
+Per _The Lancet Planetary Health_ (2023), 37 validated tools model climate-sensitive infectious diseases:
 
-### GitHub Organizations
+- **VECTRI**: Vector-borne disease community model (malaria).
+- **DyMSiM**: Dynamic Mosquito Simulation Model (dengue, West Nile virus).
+- **HYDREMATS**: Hydrology, Entomology, and Malaria Transmission Simulator.
+- **ArboMAP**: Arbovirus mapping and prediction (West Nile virus).
+- **BODA**: Bayesian Outbreak Detection Algorithm (campylobacteriosis).
 
-1. [MIDAS Network](https://github.com/midas-network): Models of Infectious Disease Agent Study with open-source modeling tools.
+### Machine Learning Tools
 
-### Other Organizations
+1. [EPIDEMIA](https://github.com/ImperialCollegeLondon/epidemia): Bayesian hierarchical models for epidemic data.
+2. [Metaculus COVID-19 Models](https://www.metaculus.com/questions/covid-19/): Community forecasting platform.
 
-1. [MIDAS Network](https://midasnetwork.us/): Models of Infectious Disease Agent Study coordination center.
-2. [WHO Collaborating Centre for Infectious Disease Modelling](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/): Imperial College modeling center.
-3. [Center for Communicable Disease Dynamics (CCDD)](https://ccdd.hsph.harvard.edu/): Harvard infectious disease research center.
-4. [SACEMA](https://www.sacema.org/): South African Centre for Epidemiological Modelling and Analysis.
-5. [CDC Center for Forecasting and Outbreak Analytics](https://www.cdc.gov/forecast-outbreak-analytics/): US CDC forecasting center.
+## Surveillance & Data Systems
 
-## Researchers
+### Global Systems
 
-1. [Trevor Bedford](https://github.com/trvrb): Fred Hutch scientist studying viruses, evolution and immunity; creator of Nextstrain.
+1. [WHO Global Outbreak Alert and Response Network (GOARN)](https://www.who.int/emergencies/goarn): International outbreak response coordination.
+2. [WHO Global Influenza Surveillance and Response System (GISRS)](https://www.who.int/initiatives/global-influenza-surveillance-and-response-system): Influenza virus tracking for vaccine development.
+3. [WHO Global Antimicrobial Resistance Surveillance System (GLASS)](https://www.who.int/initiatives/glass): AMR data collection and analysis.
+4. [HealthMap](https://www.healthmap.org): Automated disease outbreak monitoring from online sources.
+5. [ProMED-mail](https://promedmail.org): Internet-based disease outbreak reporting system.
+6. [GPHIN (Global Public Health Intelligence Network)](https://gphin.canada.ca): WHO-partnered early warning system scanning web sources.
 
-## Courses
+### United States
 
-1. [Epidemics (edX)](https://www.edx.org/): Hong Kong University course on infectious disease modeling.
-2. [Infectious Disease Modelling (Coursera)](https://www.coursera.org/): Imperial College course on disease modeling.
-3. [Mathematical Modeling of Infectious Diseases (MIT OpenCourseWare)](https://ocw.mit.edu/): Free MIT course materials.
-4. [Epidemic Modeling (FutureLearn)](https://www.futurelearn.com/): Introduction to epidemic models.
+1. [CDC National Notifiable Diseases Surveillance System (NNDSS)](https://www.cdc.gov/nndss/about/index.html): U.S. disease case surveillance from all states.
+2. [CDC WONDER](https://wonder.cdc.gov): Public health data query system (mortality, natality, cancer, TB, vaccinations).
+3. [FluView](https://www.cdc.gov/flu/weekly/): CDC weekly influenza surveillance reports.
+4. [COVID-19 Forecast Hub](https://covid19forecasthub.org): Ensemble forecasts from multiple modeling teams.
 
-## Reading Lists
+### Regional Networks
 
-1. [O957's Papers](assets/o957_reading_list.md)
+1. [CORDS (Connecting Organisations for Regional Disease Surveillance)](https://www.cordsnetwork.org): Six regional networks in 28 countries (Africa, Asia, Middle East, Europe).
 
-## Repositories
+## Epidemiological Databases
 
-1. [EpiModel](https://github.com/statnet/EpiModel): R package for mathematical modeling of infectious disease.
-2. [covasim](https://github.com/InstituteforDiseaseModeling/covasim): Agent-based model of COVID-19 dynamics.
-3. [SEIR+](https://github.com/ryansmcgee/seirsplus): Python package for SEIRS models with extensions.
-4. [epimod](https://github.com/qBioTurin/epimod): Framework for modeling epidemics.
-5. [EpiNow2](https://github.com/epiforecasts/EpiNow2): R package for real-time epidemic nowcasting.
-6. [covid-sim](https://github.com/mrc-ide/covid-sim): Imperial College COVID-19 simulation model.
-7. [CovidSim](https://github.com/InstituteforDiseaseModeling/covasim): IDM COVID-19 simulator.
-8. [PyGOM](https://github.com/PublicHealthEngland/pygom): Python ODE modeling framework for epidemics.
-9. [GLEAM](https://github.com/gleamviz/gleam): Global epidemic and mobility model.
+1. [WHO Global Health Observatory (GHO)](https://www.who.int/data/gho): 1,000+ health topics indicators across 194 WHO Member States.
+2. [WHO Data Collections](https://www.who.int/data/collections): Disease-specific data (TB, HIV, malaria, NCDs).
+3. [CDC Surveillance Systems](https://www.cdc.gov/surveillance/surveillance-systems/index.html): Multiple disease-specific surveillance networks.
+4. [European CDC Surveillance Portal](https://www.ecdc.europa.eu/en/surveillance-and-disease-data): EU/EEA communicable disease data.
 
-## Datasets
+## Organizations & Networks
 
-1. [GISAID](https://www.gisaid.org/): Global Initiative on Sharing Avian Influenza Data.
-2. [FluNet](https://www.who.int/tools/flunet): WHO global influenza surveillance.
-3. [HealthMap](https://www.healthmap.org/): Disease outbreak tracking database.
-4. [ProMED](https://promedmail.org/): Program for Monitoring Emerging Diseases.
+1. [Institute for Disease Modeling (IDM)](https://www.idmod.org): Bill & Melinda Gates Foundation research institute developing freely available modeling tools.
+2. [MIDAS (Models of Infectious Disease Agent Study)](https://midasnetwork.us): NIH-funded network of researchers, software, and data.
+3. [CEID (Center for Infectious Disease Dynamics)](https://www.huck.psu.edu/institutes-and-centers/center-for-infectious-disease-dynamics): Penn State research center.
+4. [Task Force for Global Health - Disease Surveillance](https://www.taskforce.org/disease-surveillance/): SONAR program strengthening outbreak notification in LMICs.
 
-## Software
+## Journals & Publications
 
-1. [Berkeley Madonna](https://www.berkeley-madonna.com/): Differential equation modeling software.
-2. [Vensim](https://vensim.com/): System dynamics modeling platform.
-3. [AnyLogic](https://www.anylogic.com/): Multi-method simulation software.
-
-## Websites
-
-1. [MIDAS Network Resources](https://midasnetwork.us/): Modeling resources and coordination.
-2. [CDC Epidemic Prediction Initiative](https://www.cdc.gov/flu/weekly/flusight/): Forecasting challenges and data.
-3. [European CDC](https://www.ecdc.europa.eu/): European disease surveillance and modeling.
+1. [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/): Open access, includes disease modeling papers.
+2. [Epidemics](https://www.sciencedirect.com/journal/epidemics): Elsevier journal focused on infectious disease dynamics.
+3. [Journal of Theoretical Biology](https://www.sciencedirect.com/journal/journal-of-theoretical-biology): Mathematical biology including epidemiology.
+4. [Eurosurveillance](https://www.eurosurveillance.org): European CDC journal on communicable disease epidemiology and control.
+5. [Emerging Infectious Diseases](https://wwwnc.cdc.gov/eid/): CDC monthly open-access journal.
+6. [The Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/home): High-impact clinical and public health research.
 
 ## Educational Resources
 
-1. [MIDAS Online Portal](https://midasnetwork.us/): Training materials and resources.
-2. [Epidemic Calculator](http://gabgoh.github.io/COVID/index.html): Interactive epidemic simulator.
+### Online Courses
 
-## Contribution
+1. [Coursera Epidemiology Specialization](https://www.coursera.org/specializations/epidemiology): University of North Carolina at Chapel Hill.
+2. [Johns Hopkins Epidemiology in Public Health Practice](https://www.coursera.org/specializations/epidemic-models): Modeling infectious diseases specialization.
+3. [Imperial College London Infectious Disease Modeling](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/training/): Short courses and workshops.
+
+### Textbooks & Guides
+
+1. _Modeling Infectious Diseases in Humans and Animals_ by Keeling & Rohani (2008): Standard textbook.
+2. _Mathematical Models in Epidemiology_ by Brauer, Castillo-Chavez & Feng (2019).
+3. _An Introduction to Infectious Disease Modelling_ by Vynnycky & White (2010).
+
+### Tutorials
+
+1. [EpiModel Tutorials](https://epimodel.org/tut.html): Step-by-step R package tutorials.
+2. [STEM Documentation](https://wiki.eclipse.org/STEM): Spatiotemporal Epidemiological Modeler guides.
+
+## People
+
+- [Samuel Jenness](https://github.com/smjenness) - Emory University. Creator and lead developer of the EpiModel R package for network-based infectious disease modeling.
+- [Sam Abbott](https://github.com/seabbs) - Epiforecasts. Developer of EpiNow2 for real-time Rt estimation and nowcasting, widely used during COVID-19.
+- [Sebastian Funk](https://github.com/sbfnk) - London School of Hygiene & Tropical Medicine. Leads the Epiforecasts group, develops statistical and mechanistic models for infectious disease forecasting.
+- [Nicholas Reich](https://github.com/nickreich) - UMass Amherst. Leads the US COVID-19 Forecast Hub and CDC FluSight influenza forecasting initiative.
+- [Adam Kucharski](https://github.com/adamkucharski) - London School of Hygiene & Tropical Medicine. Author of "The Rules of Contagion." Key figure in early COVID-19 R0 estimation.
+- [Simon Frost](https://github.com/sdwfrost) - Microsoft Health Futures / LSHTM. Creator of the epirecipes project, a multilanguage cookbook of infectious disease transmission models.
+- [Christian Althaus](https://github.com/calthaus) - University of Bern. Develops rapid, open-source outbreak analysis models for emerging epidemics.
+
+## Related Awesome Lists
+
+- [Awesome Healthcare](https://github.com/kakoni/awesome-healthcare) - Open source healthcare software, libraries, tools, and resources.
+- [Awesome Computational Biology](https://github.com/inoue0426/awesome-computational-biology) - Computational biology resources.
+- [Awesome Parasite](https://github.com/ecohealthalliance/awesome-parasite) - Host-parasite information and resources.
+- [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics) - Bioinformatics libraries and software.
+
+## Contributing
 
 Notice anything missing that would be a good fit? If interested in contributing, please see the [contributing file](./CONTRIBUTING.md) for further direction.
 
+## Code of Conduct
+
+Please see the [code of conduct](./CODE_OF_CONDUCT.md).
+
 ## License
 
-[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+To the extent possible under law, [O957](https://github.com/O957) has waived all copyright and related or neighboring rights to this work.
