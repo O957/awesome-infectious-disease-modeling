@@ -61,6 +61,7 @@ Per _The Lancet Planetary Health_ (2023), 37 validated tools model climate-sensi
 4. [HealthMap](https://www.healthmap.org): Automated disease outbreak monitoring from online sources.
 5. [ProMED-mail](https://promedmail.org): Internet-based disease outbreak reporting system.
 6. [GPHIN (Global Public Health Intelligence Network)](https://gphin.canada.ca): WHO-partnered early warning system scanning web sources.
+7. [Hantascan](https://hantascan.com): Live global hantavirus map showing reported cases, deaths, country totals, and outbreak locations.
 
 ### United States
 
