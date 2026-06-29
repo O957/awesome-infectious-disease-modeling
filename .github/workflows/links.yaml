@@ -1,0 +1,33 @@
+name: links
+
+# check for dead links whenever commits land on main
+# (not on every push within a pull request); can also
+# be manually run
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: link checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403 and 429 are accepted to avoid false
+          # failures from sites that block CI traffic
+          # or rate-limit; genuinely dead links return
+          # 404 and still fail the job.
+          args: >-
+            --no-progress
+            --max-retries 2
+            --accept 200,206,403,429
+            './**/*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
