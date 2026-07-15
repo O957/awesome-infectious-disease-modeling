@@ -1,21 +1,23 @@
-
 ci:
     autofix_commit_msg: |
-        [pre-commit.ci] auto fixes from pre-commit.com hooks
-        for more information, see https://pre-commit.ci
+        chore(pre-commit): auto-fix pre-commit hook failings; for more
+        information, see https://pre-commit.ci
     autofix_prs: true
     autoupdate_branch: ""
-    autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
+    autoupdate_commit_msg: "chore(pre-commit): run pre-commit autoupdate"
     autoupdate_schedule: monthly
     skip: []
     submodules: false
+
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
     -   id: check-added-large-files
         args: ["--maxkb=10000"]
+    -   id: check-ast
     -   id: check-case-conflict
+    -   id: check-docstring-first
     -   id: check-yaml
         args: ["--allow-multiple-documents"]
     -   id: check-toml
@@ -24,12 +26,20 @@ repos:
     -   id: pretty-format-json
         args: ["--autofix", "--no-sort-keys",  "--indent", "4"]
     -   id: trailing-whitespace
+    -   id: check-executables-have-shebangs
+        files: \.sh$
     -   id: detect-private-key
 -   repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.48.0
     hooks:
     -   id: markdownlint
         args: [--fix]
+-   repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+    -   id: detect-secrets
+        args: ["--baseline", ".secrets.baseline"]
+        exclude: package.lock.json
 -   repo: https://github.com/rhysd/actionlint
     rev: v1.7.12
     hooks:
@@ -47,3 +57,9 @@ repos:
     rev:  v0.19.1
     hooks:
     -   id: gitlint
+-   repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v4.4.0
+    hooks:
+    -   id: conventional-pre-commit
+        stages: [commit-msg]
+        args: [--strict, --force-scope, feat, fix, chore, test, custom]
