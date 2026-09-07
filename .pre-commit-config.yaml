@@ -50,7 +50,7 @@ repos:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.17.0
+    rev: v4.18.0
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
