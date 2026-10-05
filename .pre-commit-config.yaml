@@ -45,12 +45,12 @@ repos:
     hooks:
     -   id: actionlint
 -   repo: https://github.com/crate-ci/typos
-    rev: v1
+    rev: typos-dict-v0.14.2
     hooks:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.18.0
+    rev: v4.19.1
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
